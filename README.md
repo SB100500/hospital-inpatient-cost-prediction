@@ -1,5 +1,3 @@
-# hospital-inpatient-cost-prediction
-End-to-end machine learning project for hospital inpatient charge prediction and healthcare cost analysis.
 # 🏥 Hospital Inpatient Cost Prediction
 
 Predicting hospital inpatient charges using machine learning — helping healthcare providers forecast costs, plan resources, and support insurance/billing decisions before or during a patient's stay.
