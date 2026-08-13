@@ -63,24 +63,26 @@ Hospitals sit on huge volumes of admission, diagnosis, and treatment data — bu
 ## 🗂️ Repo Structure
 
 ```
-## 📁 Repository Structure
-
 hospital-inpatient-cost-prediction/
 │
-├── data/
-│   ├── README.md
-│   └── Hospital_Inpatient_Discharges_(SPARCS_De-Identified)__2009_20260723.csv # Raw SPARCS inpatient discharge dataset
+├── data/                                      # Dataset and dataset documentation
+│   ├── README.md                              # Dataset source and description
+│   └── Hospital_Inpatient_Discharges_(SPARCS_De-Identified)__2009_20260723.csv
+│                                               # Raw SPARCS inpatient discharge dataset
 │
-├── images/                                                               # Visualizations used in project documentation
-│                                                                         # SHAP plots, model comparison charts, etc.
+├── images/                                    # Visualizations used in project documentation
+│                                               # SHAP plots, model comparison charts, etc.
 │
-├── hospital_inpatient_cost_prediction.ipynb                                    # Complete end-to-end ML analysis
-│                                                                               # Data cleaning → EDA → preprocessing →
-│                                                                               # modeling → tuning → SHAP → ANN → insights
+├── hospital_inpatient_cost_prediction.ipynb   # Complete end-to-end ML analysis
+│                                               # Data cleaning → EDA → preprocessing →
+│                                               # modeling → tuning → SHAP → ANN → insights
 │
-├── requirements.txt
-├── LICENSE
-└── README.md
+├── requirements.txt                            # Python libraries required to run the project
+│
+├── LICENSE                                     # MIT License
+│
+└── README.md                                   # Project overview, methodology, results,
+                                                # business insights, and future work
 ```
 
 ## 🚀 Future Work
