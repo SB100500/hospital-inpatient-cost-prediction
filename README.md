@@ -65,24 +65,18 @@ Hospitals sit on huge volumes of admission, diagnosis, and treatment data — bu
 ```
 hospital-inpatient-cost-prediction/
 │
-├── data/                                      # Dataset and dataset documentation
-│   ├── README.md                              # Dataset source and description
+├── data/                         # Dataset & documentation
+│   ├── README.md
 │   └── Hospital_Inpatient_Discharges_(SPARCS_De-Identified)__2009_20260723.csv
-│                                               # Raw SPARCS inpatient discharge dataset
 │
-├── images/                                    # Visualizations used in project documentation
-│                                               # SHAP plots, model comparison charts, etc.
+├── images/                       # Project visualizations
 │
-├── hospital_inpatient_cost_prediction.ipynb   # Complete end-to-end ML analysis
-│                                               # Data cleaning → EDA → preprocessing →
-│                                               # modeling → tuning → SHAP → ANN → insights
+├── hospital_inpatient_cost_prediction.ipynb
+│                                  # Complete ML workflow
 │
-├── requirements.txt                            # Python libraries required to run the project
-│
-├── LICENSE                                     # MIT License
-│
-└── README.md                                   # Project overview, methodology, results,
-                                                # business insights, and future work
+├── requirements.txt              # Python dependencies
+├── LICENSE                       # MIT License
+└── README.md                     # Project documentation
 ```
 
 ## 🚀 Future Work
