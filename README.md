@@ -63,8 +63,8 @@ Hospitals sit on huge volumes of admission, diagnosis, and treatment data — bu
 ## 🗂️ Repo Structure
 
 ```
-├── notebooks/hospital-cost-prediction.ipynb   # full analysis, end to end
-├── images/                                    # exported charts for this README
+├── hospital-cost-prediction.ipynb   # full analysis, end to end
+├── images/                          # exported charts for this README
 ├── requirements.txt
 └── README.md
 ```
