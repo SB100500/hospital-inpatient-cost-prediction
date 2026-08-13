@@ -47,7 +47,7 @@ Hospitals sit on huge volumes of admission, diagnosis, and treatment data — bu
 | CatBoost | 5,096.57 | 10,372.12 | 0.7493 |
 | ANN (TensorFlow) | 5,348.15 | 10,599.60 | 0.7382 |
 
-**XGBoost was selected as the final model** — best test performance across all three metrics, and it beat a tuned neural network.
+**XGBoost was selected as the final model** — based on its best overall test performance across MAE, RMSE, and R².
 
 <!-- Add exported chart images here, e.g.: -->
 <!-- ![Model Comparison](images/model_comparison.png) -->
