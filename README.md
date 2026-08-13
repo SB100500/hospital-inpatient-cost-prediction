@@ -143,7 +143,11 @@ hospital-inpatient-cost-prediction/
 │   ├── README.md
 │   └── Hospital_Inpatient_Discharges_(SPARCS_De-Identified)__2009_20260723.csv
 │
-├── images/                       # Project visualizations
+├── images/
+│   ├── model_comparison.png
+│   ├── shap_summary.png
+│   ├── residual_plot.png
+│   └── ann_training_history.png                       # Project visualizations
 │
 ├── hospital_inpatient_cost_prediction.ipynb
 │                                  # Complete ML workflow
